@@ -238,6 +238,18 @@ input[type=submit] {
   border: 0 none;
 }
 
+input[type=submit]:hover{
+  border:3px solid teal;
+}
+
+nav > a:hover{
+  color: blue;
+}
+
+.social:hover{
+  border:3px solid blue;
+  }
+
 @media (max-width: 980px) {
     .container{
       width: 90%;
